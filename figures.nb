@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    287294,       6569]
-NotebookOptionsPosition[    279099,       6420]
-NotebookOutlinePosition[    279690,       6441]
-CellTagsIndexPosition[    279647,       6438]
+NotebookDataLength[    288224,       6591]
+NotebookOptionsPosition[    279932,       6441]
+NotebookOutlinePosition[    280523,       6462]
+CellTagsIndexPosition[    280480,       6459]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -6114,42 +6114,46 @@ Cell[BoxData[{
   RowBox[{"hmax", "=", "15"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"m", " ", "=", " ", "0.01"}], ";"}], "\[IndentingNewLine]", 
- RowBox[{"Plot", "[", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"eigenvalues", "[", 
-      RowBox[{"[", "1", "]"}], "]"}], ",", " ", 
-     RowBox[{"eigenvalues", "[", 
-      RowBox[{"[", "2", "]"}], "]"}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"ma", ",", "0", ",", "1"}], "}"}], ",", 
-   RowBox[{"PlotLegends", "->", 
-    RowBox[{"{", 
-     RowBox[{"\"\<Eigenvalue Seagrass\>\"", ",", "\"\<Eigenvalue Bare\>\""}], 
-     "}"}]}], ",", 
-   RowBox[{"AxesLabel", "->", 
+ RowBox[{"eigenplot", " ", "=", 
+  RowBox[{"Plot", "[", 
+   RowBox[{
     RowBox[{"{", 
      RowBox[{
-      RowBox[{"Style", "[", 
-       RowBox[{
-        RowBox[{"Subscript", "[", 
-         RowBox[{"\"\<m\>\"", ",", "\"\<A\>\""}], "]"}], ",", "12", ",", 
-        "Black"}], "]"}], ",", 
-      RowBox[{"Style", "[", 
-       RowBox[{"\"\<Eigenvalues\>\"", ",", "12", ",", "Black"}], "]"}]}], 
-     "}"}]}], ",", 
-   RowBox[{"PlotStyle", "->", 
+      RowBox[{"eigenvalues", "[", 
+       RowBox[{"[", "1", "]"}], "]"}], ",", " ", 
+      RowBox[{"eigenvalues", "[", 
+       RowBox[{"[", "2", "]"}], "]"}]}], "}"}], ",", 
     RowBox[{"{", 
-     RowBox[{
-      RowBox[{"Darker", "[", 
-       RowBox[{"Green", ",", "0.5"}], "]"}], ",", 
-      RowBox[{"Darker", "[", "Yellow", "]"}]}], "}"}]}], ",", 
-   RowBox[{"PlotRange", "->", "All"}]}], "]"}]}], "Input",
+     RowBox[{"ma", ",", "0", ",", "1"}], "}"}], ",", 
+    RowBox[{"PlotLegends", "->", 
+     RowBox[{"{", 
+      RowBox[{"\"\<Seagrass state\>\"", ",", "\"\<Bare state\>\""}], "}"}]}], 
+    ",", 
+    RowBox[{"AxesLabel", "->", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Style", "[", 
+        RowBox[{
+         RowBox[{"Subscript", "[", 
+          RowBox[{"\"\<m\>\"", ",", "\"\<A\>\""}], "]"}], ",", "12", ",", 
+         "Black"}], "]"}], ",", 
+       RowBox[{"Style", "[", 
+        RowBox[{"\"\<Eigenvalues\>\"", ",", "12", ",", "Black"}], "]"}]}], 
+      "}"}]}], ",", 
+    RowBox[{"PlotStyle", "->", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Darker", "[", 
+        RowBox[{"Green", ",", "0.5"}], "]"}], ",", 
+       RowBox[{"Darker", "[", "Yellow", "]"}]}], "}"}]}], ",", 
+    RowBox[{"PlotRange", "->", "All"}]}], "]"}]}]}], "Input",
  CellChangeTimes->{{3.945780880215455*^9, 3.945780897875634*^9}, {
   3.945782140876338*^9, 3.945782216451592*^9}, {3.945782280966642*^9, 
-  3.94578235036803*^9}, {3.9457823968712683`*^9, 3.945782405224206*^9}},
- CellLabel->"In[87]:=",ExpressionUUID->"f897096b-ccd9-4b4a-b8e9-99fbd2ecee68"],
+  3.94578235036803*^9}, {3.9457823968712683`*^9, 3.945782405224206*^9}, {
+  3.9457825765246887`*^9, 3.9457826106959877`*^9}, {3.9457826867278957`*^9, 
+  3.945782718547072*^9}},
+ CellLabel->
+  "In[133]:=",ExpressionUUID->"f897096b-ccd9-4b4a-b8e9-99fbd2ecee68"],
 
 Cell[BoxData[
  TemplateBox[{
@@ -6192,7 +6196,7 @@ Qt7vPzb35tLHyeG/unjNyYHp7z+myoXoBtXhv5YtNY9R7O8/gn/trdbX4b9x
 4pxUIe/vP1w0VXOm2uG/KExs38D07z8UniT+ReDhvwQB1KSQ9+8/8FKMwxXj
 4b/gtTtqYPrvP8wH9Ijl5eG/vGqjLzD97z+ovFtOtejhv5cfC/X//+8/gnHD
 E4Xr4b+kTXIW
-          "]]}, Annotation[#, "Charting`Private`Tag$13796#1"]& ], 
+          "]]}, Annotation[#, "Charting`Private`Tag$14838#1"]& ], 
        TagBox[{
          Directive[
           Opacity[1.], 
@@ -6233,7 +6237,7 @@ pt82kHepGCW1xntZZKG/U/Jj4W9FSJ3zlOhS5ENNAO3b+rQCLOxTKLJVFnKt
 MfWOeDoaVI3QuqnCvNIkuejxfLSMdP2pR1WY13KvvUw8B7s9ybvtNPjg/65G
 g+v8AF3NBpp6tfgQO0sjpTll4QQ1xcteR+ifLTU4MpWOARsOn/v280FEy+3I
 pk0SLrBlMhwOCDWJfjrdLhov8mg9BwyEWiTTx0pvB/4HZTDEMg==
-          "]]}, Annotation[#, "Charting`Private`Tag$13796#2"]& ], {}}}, {}}, {
+          "]]}, Annotation[#, "Charting`Private`Tag$14838#2"]& ], {}}}, {}}, {
     DisplayFunction -> Identity, Ticks -> {Automatic, Automatic}, 
      AxesOrigin -> {0, 0}, 
      FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
@@ -6284,8 +6288,8 @@ pk0SLrBlMhwOCDWJfjrdLhov8mg9BwyEWiTTx0pvB/4HZTDEMg==
        Automatic, Automatic}}, Ticks -> {Automatic, Automatic}}], 
    FormBox[
     FormBox[
-     TemplateBox[{"\"Eigenvalue Seagrass\"", "\"Eigenvalue Bare\""}, 
-      "LineLegend", DisplayFunction -> (FormBox[
+     TemplateBox[{"\"Seagrass state\"", "\"Bare state\""}, "LineLegend", 
+      DisplayFunction -> (FormBox[
         StyleBox[
          StyleBox[
           PaneBox[
@@ -6411,9 +6415,26 @@ pk0SLrBlMhwOCDWJfjrdLhov8mg9BwyEWiTTx0pvB/4HZTDEMg==
  CellChangeTimes->{
   3.945780898496644*^9, {3.945782141686804*^9, 3.9457822174967403`*^9}, {
    3.9457822901112633`*^9, 3.9457823511481256`*^9}, {3.9457823975952663`*^9, 
-   3.945782405808938*^9}},
- CellLabel->"Out[93]=",ExpressionUUID->"00154436-33c1-4b95-b7cd-5f7d67f1d7a5"]
-}, Open  ]]
+   3.945782405808938*^9}, {3.945782583663768*^9, 3.94578261127911*^9}, 
+   3.9457826567019377`*^9, {3.945782690066601*^9, 3.945782719287781*^9}},
+ CellLabel->
+  "Out[139]=",ExpressionUUID->"8ecd8182-e97b-43a9-9a6c-d2b83f78bf4d"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Export", "[", 
+    RowBox[{"\"\<\>\"", ",", "eigenplot", ",", 
+     RowBox[{"ImageResolution", "->", "1000"}]}], "]"}], ";"}], " ", 
+  RowBox[{"(*", 
+   RowBox[{"set", " ", "your", " ", "own", " ", "working", " ", "directory"}],
+    "*)"}]}]], "Input",
+ CellChangeTimes->{{3.945782587088791*^9, 3.945782591573735*^9}, {
+   3.9457826260602217`*^9, 3.9457826384412737`*^9}, {3.9457827214183064`*^9, 
+   3.945782722594254*^9}, 
+   3.945782760571274*^9},ExpressionUUID->"1c1ad888-0946-4ec9-a836-\
+e14d35d1624e"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -6565,9 +6586,10 @@ Cell[259933, 5953, 4824, 137, 195, "Output",ExpressionUUID->"178284a9-218e-4ffa-
 Cell[CellGroupData[{
 Cell[264806, 6096, 184, 3, 45, "Subsubsection",ExpressionUUID->"f6af41d8-7876-4807-8c55-c85c41130a49"],
 Cell[CellGroupData[{
-Cell[265015, 6103, 1767, 48, 178, "Input",ExpressionUUID->"f897096b-ccd9-4b4a-b8e9-99fbd2ecee68"],
-Cell[266785, 6153, 12262, 261, 235, "Output",ExpressionUUID->"00154436-33c1-4b95-b7cd-5f7d67f1d7a5"]
-}, Open  ]]
+Cell[265015, 6103, 1930, 52, 178, "Input",ExpressionUUID->"f897096b-ccd9-4b4a-b8e9-99fbd2ecee68"],
+Cell[266948, 6157, 12375, 263, 235, "Output",ExpressionUUID->"8ecd8182-e97b-43a9-9a6c-d2b83f78bf4d"]
+}, Open  ]],
+Cell[279338, 6423, 554, 13, 30, "Input",ExpressionUUID->"1c1ad888-0946-4ec9-a836-e14d35d1624e"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
